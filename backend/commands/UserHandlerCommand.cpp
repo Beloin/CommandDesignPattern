@@ -9,6 +9,7 @@ using namespace std;
 
 void UserHandlerCommand::handle(RestRequest *req, RestResponse *res) {
     cout << "Handling from UserHandlerCommand." << endl;
+    cout << "URL: " << req->getUrl() << endl;
     cout << "Body: " << req->getBody() << endl;
     res->send((string *) R"({ "ace" : "Ribeiro"})");
 }

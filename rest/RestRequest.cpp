@@ -11,3 +11,5 @@ string &RestRequest::getBody() const {
 string &RestRequest::getUrl() const {
     return *URL;
 }
+
+RestRequest::RestRequest(string *body, string *url) : body(body), URL(url) {}

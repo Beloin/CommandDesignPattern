@@ -9,6 +9,8 @@
 using namespace std;
 
 class RestRequest {
+public:
+    RestRequest(string *body, string *url);
 
 private:
     string *body;
