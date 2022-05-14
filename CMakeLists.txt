@@ -17,7 +17,9 @@ add_executable(
         rest/RestDriver.h
 
         backend/commands/UserHandlerCommand.cpp
-        backend/commands/UserHandlerCommand.h
+        backend/commands/UserHandlerCommand.cpp
+        backend/commands/PostCommand.cpp
+        backend/commands/PostCommand.h
 
         main.cpp
 )

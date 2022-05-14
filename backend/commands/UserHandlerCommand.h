@@ -9,7 +9,6 @@
 #include <RestCommand.h>
 
 class UserHandlerCommand : RestCommand {
-
     void handle(RestRequest *req, RestResponse *res) override;
 };
 

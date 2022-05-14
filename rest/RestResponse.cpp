@@ -6,9 +6,9 @@
 #include "RestResponse.h"
 using namespace std;
 
-void RestResponse::send(string *bd) {
+void RestResponse::send(const string& bd) {
     if (!isSent) {
-        cout << "Sent Body in response: " << endl << *bd << endl;
+        cout << "Sent Body in response: " << endl << bd << endl;
     } else {
         cout << "Message Already Sent" << endl;
     }

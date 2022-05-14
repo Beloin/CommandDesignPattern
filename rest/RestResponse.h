@@ -14,7 +14,7 @@ private:
     bool isSent = false;
 
 public:
-    void send(string *body);
+    void send(const string& bd);
 };
 
 

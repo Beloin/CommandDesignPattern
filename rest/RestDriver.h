@@ -17,7 +17,7 @@ private:
 
 public:
     void registerRest(string r, RestCommand* restCommand);
-    void request(string url, string body);
+    void makeRequest(string url, string body);
 };
 
 
